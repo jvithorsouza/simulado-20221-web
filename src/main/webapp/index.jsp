@@ -51,7 +51,7 @@ Exiba a lista de usuarios.
       </ul>
       </p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <a href="/lista" class="btn btn-primary btn-lg px-4 gap-3">PARTE 2</a>
+        <a href="lista.jsp" class="btn btn-primary btn-lg px-4 gap-3">PARTE 2</a>
       </div>
     </div>
 
@@ -67,7 +67,7 @@ Exiba a lista de usuarios.
       </ul>
       </p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <a href="/novo" class="btn btn-primary btn-lg px-4 gap-3">PARTE 3</a>
+        <a href="cadastro.jsp" class="btn btn-primary btn-lg px-4 gap-3">PARTE 3</a>
       </div>
     </div>
   </div>

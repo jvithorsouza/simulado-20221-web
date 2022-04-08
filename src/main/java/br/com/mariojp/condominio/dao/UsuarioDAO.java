@@ -20,6 +20,10 @@ public class UsuarioDAO {
 		usuarios.put(usuario.getLogin(), usuario);
 	}
 	
+	/*public Usuario findByPass(String senha) {
+		return usuarios.get(senha);
+	}*/
+	
 	
 	public Usuario findByLogin(String login) {
 		return usuarios.get(login);

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Login</title>
+<title>Cadastro</title>
 <link
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
 	rel="stylesheet"
@@ -14,27 +14,23 @@
 </head>
 <body>
 	<div class="px-4 py-5 my-5 text-center">
-		<h1 class="display-5 fw-bold">LOGIN</h1>
+		<h1 class="display-5 fw-bold">Cadastro</h1>
 		<div class="col-lg-6 mx-auto">
-			<form method="post" action="./login">
+			<form method="post" action="./cadastro">
 				<div class="lead mb-4">
 					<div class="form-floating mb-3">
 						<input type="text" class="form-control" name="login" id="login"
-							placeholder="login"> <label for="login">login</label>
+							placeholder="login"> <label for="login">Informe seu login</label>
 					</div>
 					<div class="form-floating">
 						<input type="password" class="form-control" name="senha"
-							id="senha" placeholder="senha"> <label for="senha">Senha</label>
+							id="senha" placeholder="senha"> <label for="senha">insira suas enha</label>
 					</div>
 
 				</div>
 				<div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-					<button type="submit" class="btn btn-primary btn-lg px-4 gap-3">Entrar</button>
-				</div>
-				<div class="d-grid gap-2 d-sm-flex justify-content-sm-center" style="margin-top: 5px;">
-                    <a href="cadastro.jsp" class="btn btn-primary btn-lg px-4 gap-3">Cadastrar</a>
-                </div>
-				
+        <button type="submit" class="btn btn-primary btn-lg px-4 gap-3">Cadastrar</button>
+      </div>
 			</form>
 
 
